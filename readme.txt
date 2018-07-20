@@ -4,3 +4,4 @@ Git is free software distributed under the.
 Creating a new branch is quick and simple.
 master的冲突
 dev的冲突
+dev继续开发
