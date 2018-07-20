@@ -17,6 +17,7 @@ function getCategory($arr, $pid=0, $level=0){
 			getCategory($arr, $value['cat_id'], $level+1);//父亲找到儿子，儿子再去找儿子的儿子
 		}
 	}
+	//b觉得这里写得不错
 	return $list;
 }
 
