@@ -6,6 +6,7 @@ $arr = array(
 	3=>['cat_id'=>'4','cat_name'=>'小米','parent_id'=>'2'],
 	4=>['cat_id'=>'5','cat_name'=>'服装','parent_id'=>'0'],
 	5=>['cat_id'=>'6','cat_name'=>'裤子','parent_id'=>'5'],
+	6=>['cat_id'=>'7','cat_name'=>'a做的修改','parent_id'=>'0'],
 );
 
 function getCategory($arr, $pid=0, $level=0){
